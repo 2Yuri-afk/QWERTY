@@ -1,0 +1,31 @@
+{
+  "name": "qwerty-typing-test",
+  "version": "1.0.0",
+  "description": "A modern typing speed test application with multiple modes and difficulty levels",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "typing",
+    "speed-test",
+    "wpm",
+    "keyboard",
+    "practice",
+    "alpine.js",
+    "tailwind"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/qwerty-typing-test.git"
+  },
+  "homepage": "https://qwerty-typing-test.vercel.app",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
